@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.quicksand-uniquifier {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #f9faff;
+}
+
+/* nav */
+nav {
+    padding: 15px 50px !important;
+}
+
+.hamburger {
+    background-color: white;
+    font-size: 24px;
+    font-weight: 100;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+    margin-right: 17px;
+}
+
+.hamburger:hover {
+    background-color: white;
+}
+
+.logo {
+    max-height: 28px;
+    cursor: pointer;
+}
+
+/* offcanvas */
+.btn-close {
+    background-color: #f9faff;
+    opacity: 2;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin: 0px !important;
+}
+
+.btn-close:hover {
+    /* background-color: ; */
+    color: black;
+    transform: rotate(360deg);
+    transition-duration: 800ms;
+}
+
+.offcanvas-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.offcan-logo {
+    max-height: 28px;
+}
+
+.offcanvas {
+    padding: 44px 50px 40px;
+    background-color: white;
+}
+
+.offcanvas.offcanvas-start {
+    width: 391px;
+}
+
+.offcan-icons {
+    /* display: flex; */
+    /* justify-content: ce  nter; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* vertical-align: middle; */
+    margin-bottom: 30px;
+    font-size: 20px;
+    /* line-height: 24px; */
+    font-weight: 700;
+}
+
+.ics {
+    margin-right: 14px;
+}
+
+.offcan-icons:hover {
+    color: grey;
+    cursor: pointer;
+    transition-duration: 400ms;
+}
+
+.phone-no {
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 40px;
+
+}
+
+.phone-no:hover {
+    color: grey;
+    transition-duration: 400ms;
+}
+
+.main-offcan {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+hr {
+    border: 1px solid gray;
+}

@@ -27,7 +27,8 @@
                 </button>
                 <div class="offcanvas offcanvas-start" id="offcanvasExample">
                     <div class="offcanvas-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <button type="button" class="btn-close close-button" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
                         <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="./pics/logo-retina.webp"
                                 class="offcan-logo" alt="">
                         </h5>
@@ -53,38 +54,328 @@
                 </div>
                 <img src="./pics/logo-retina.webp" class="logo" alt="logo">
             </div>
-            <div class="d-flex gap-1">
+            <div class="d-flex gap-lg-4 gap-0">
                 <ul class="nav-items">
-                    <li class="elements"><a href="" class="nav-anks"></a>Home</li>
-                    <li class="elements"><a href="" class="nav-anks"></a>Pages</li>
-                    <li class="elements"><a href="" class="nav-anks"></a>Portfolio</li>
-                    <li class="elements"><a href="" class="nav-anks"></a>Blog</li>
-                    <li class="elements"><a href="" class="nav-anks"></a>Contacts</li>
-                </ul>
-                <div class="d-flex justify-content-center align-items-center mt-2 gap-5">
-                    <button class="btn btn-search" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i
-                            class="fa-solid fa-magnifying-glass"></i></button>
+                    <li class="elements"><a href="" class="nav-anks"></a>Home
+                        <div class="dropdown-submenu">
+                            <ul class="submenu">
+                                <li class="submenu-li submenu-li1 "><a href=""
+                                        class="submenu-anks submenu-anks1">Marketing Agency</a>
+                                </li>
+                                <li class="submenu-li submenu-li2"><a href=""
+                                        class="submenu-anks submenu-anks2">Creative Agency</a>
+                                </li>
+                                <li class="submenu-li submenu-li2"><a href=""
+                                        class="submenu-anks submenu-anks2">Advertising
+                                        Agency</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="elements"><a href="" class="nav-anks"></a>Pages
+                        <div class="dropdown-submenu">
+                            <ul class="submenu">
+                                <li class="submenu-li submenu-li2 "><a href=""
+                                        class="submenu-anks submenu-anks2">About</a>
+                                </li>
+                                <li class="submenu-li submenu-li2"><a href=""
+                                        class="submenu-anks submenu-anks2">Services</a>
+                                </li>
+                                <li class="submenu-li submenu-li2"><a href="" class="submenu-anks submenu-anks2">Our
+                                        Team</a></li>
+                                <li class="submenu-li submenu-li2"><a href="" class="submenu-anks submenu-anks2">FAQ</a>
+                                </li>
+                                <li class="submenu-li submenu-li2"><a href=""
+                                        class="submenu-anks submenu-anks2">Pricing</a></li>
+                                <li class="submenu-li submenu-li2"><a href=""
+                                        class="submenu-anks submenu-anks2">Typography
+                                    </a></li>
+                                <li class="submenu-li submenu-li2"><a href=""
+                                        class="submenu-anks submenu-anks2">Shortcodes
+                                    </a></li>
+                                <li class="submenu-li submenu-li2"><a href="" class="submenu-anks submenu-anks2">404
+                                    </a></li>
+                                <li class="submenu-li submenu-li2"><a href="" class="submenu-anks submenu-anks2">Privacy
+                                        Policy
+                                    </a></li>
+                                <li class="submenu-li submenu-li2"><a href="" class="submenu-anks submenu-anks2">Service
+                                        Plus
+                                    </a></li>
+                                <li class="submenu-li submenu-li2"><a href=""
+                                        class="submenu-anks submenu-anks2">Newslrtter Popup
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="elements"><a href="" class="nav-anks"></a>Portfolio
+                        <div class="dropdown-submenu">
+                            <ul class="submenu">
+                                <li class="submenu-li submenu-li2 "><a href=""
+                                        class="submenu-anks submenu-anks2">Portfolio 1</a>
+                                </li>
+                                <li class="submenu-li submenu-li2"><a href=""
+                                        class="submenu-anks submenu-anks2">Portfolio 2</a>
+                                </li>
+                                <li class="submenu-li submenu-li2"><a href=""
+                                        class="submenu-anks submenu-anks2">Portfolio 3</a></li>
+                                <li class="submenu-li submenu-li2"><a href=""
+                                        class="submenu-anks submenu-anks2">Portfolio 4</a>
+                                </li>
+                                <li class="submenu-li submenu-li2"><a href=""
+                                        class="submenu-anks submenu-anks2">Portfolio 5</a></li>
+                                <li class="submenu-li submenu-li2"><a href=""
+                                        class="submenu-anks submenu-anks2">Portfolio 6
+                                    </a></li>
+                                <li class="submenu-li submenu-li2"><a href="" class="submenu-anks submenu-anks2">Single
+                                        Portfolio
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="elements"><a href="" class="nav-anks"></a>Blog
 
-                    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop"
+
+                        <!-- <div class="big-dropdown-div">
+                            <div class="">
+                                <ul class="submenu">
+                                    <li class="submenu-li submenu-li2 "><a href=""
+                                            class="submenu-anks submenu-anks2">Portfolio 1</a>
+                                    </li>
+                                    <li class="submenu-li submenu-li2"><a href=""
+                                            class="submenu-anks submenu-anks2">Portfolio 2</a>
+                                    </li>
+                                    <li class="submenu-li submenu-li2"><a href=""
+                                            class="submenu-anks submenu-anks2">Portfolio 3</a></li>
+                                    <li class="submenu-li submenu-li2"><a href=""
+                                            class="submenu-anks submenu-anks2">Portfolio 4</a>
+                                    </li>
+                                    <li class="submenu-li submenu-li2"><a href=""
+                                            class="submenu-anks submenu-anks2">Portfolio 5</a></li>
+                                    <li class="submenu-li submenu-li2"><a href=""
+                                            class="submenu-anks submenu-anks2">Portfolio 6
+                                        </a></li>
+                                    <li class="submenu-li submenu-li2"><a href=""
+                                            class="submenu-anks submenu-anks2">Single
+                                            Portfolio
+                                        </a></li>
+                                </ul>
+                            </div>
+                            <div class="">
+
+                                <ul class="submenu">
+                                    <li class="submenu-li submenu-li2 "><a href=""
+                                            class="submenu-anks submenu-anks2">Portfolio 1</a>
+                                    </li>
+                                    <li class="submenu-li submenu-li2"><a href=""
+                                            class="submenu-anks submenu-anks2">Portfolio 2</a>
+                                    </li>
+                                    <li class="submenu-li submenu-li2"><a href=""
+                                            class="submenu-anks submenu-anks2">Portfolio 3</a></li>
+                                    <li class="submenu-li submenu-li2"><a href=""
+                                            class="submenu-anks submenu-anks2">Portfolio 4</a>
+                                    </li>
+                                    <li class="submenu-li submenu-li2"><a href=""
+                                            class="submenu-anks submenu-anks2">Portfolio 5</a></li>
+                                    <li class="submenu-li submenu-li2"><a href=""
+                                            class="submenu-anks submenu-anks2">Portfolio 6
+                                        </a></li>
+                                    <li class="submenu-li submenu-li2"><a href=""
+                                            class="submenu-anks submenu-anks2">Single
+                                            Portfolio
+                                        </a></li>
+                                </ul>
+                            </div>
+                            <div class="">
+                                <ul class="submenu">
+                                    <li class="submenu-li submenu-li2 "><a href=""
+                                            class="submenu-anks submenu-anks2">Portfolio 1</a>
+                                    </li>
+                                    <li class="submenu-li submenu-li2"><a href=""
+                                            class="submenu-anks submenu-anks2">Portfolio 2</a>
+                                    </li>
+                                    <li class="submenu-li submenu-li2"><a href=""
+                                            class="submenu-anks submenu-anks2">Portfolio 3</a></li>
+                                    <li class="submenu-li submenu-li2"><a href=""
+                                            class="submenu-anks submenu-anks2">Portfolio 4</a>
+                                    </li>
+                                    <li class="submenu-li submenu-li2"><a href=""
+                                            class="submenu-anks submenu-anks2">Portfolio 5</a></li>
+                                    <li class="submenu-li submenu-li2"><a href=""
+                                            class="submenu-anks submenu-anks2">Portfolio 6
+                                        </a></li>
+                                    <li class="submenu-li submenu-li2"><a href=""
+                                            class="submenu-anks submenu-anks2">Single
+                                            Portfolio
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+            </div>
+
+
+ -->
+
+                    </li>
+                    <li class="elements elements2"><a href="" class="nav-anks"></a>Contacts</li>
+                    <li class="elements elements3"><a href="" class="nav-anks"></a><i
+                            class="fa-solid fa-ellipsis-vertical"></i>
+
+
+                        <div class="dropdown-submenu">
+                            <ul class="submenu">
+                                <li class="submenu-li submenu-li2 "><a href=""
+                                        class="submenu-anks submenu-anks2">Contacts</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="search-talk">
+                    <button class="btn btn-search " type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i
+                            class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <div class="offcanvas offcanvas-top search-offcan" tabindex="-1" id="offcanvasTop"
                         aria-labelledby="offcanvasTopLabel">
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasTopLabel">Offcanvas top</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
+                        <div class="offcanvas-header search-offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasTopLabel"><img
+                                    src="./pics/logo-inverse-retina.webp" alt="" class="inverse-logo"></h5>
+                            <button type="button" class="btn search-close-btn close-btn" data-bs-dismiss="offcanvas"
+                                aria-label="Close">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
                         </div>
                         <div class="offcanvas-body">
-                            ...
+                            <input type="text" id="a-word" name="a-word" placeholder="Type words and hit enter">
                         </div>
                     </div>
                     <div>
                         <button type="button" class="talk-btn">Let's Talk</button>
                     </div>
+                    <div>
+                        <button class="btn small-screen-burger" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i
+                                class="fa-solid fa-bars"></i></button>
+
+                        <div class="offcanvas offcanvas-top small-screen-burger" tabindex="-1" id="offcanvasTop"
+                            aria-labelledby="offcanvasTopLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasTopLabel">Offcanvas top</h5>
+                                <button type="button" class="btn-close search-close-btn" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                ...
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
         </nav>
+        <!-- header section -->
+        <section class="container-fluid">
+            <div class="in-container-div">
+                <div class="header-row row">
+                    <div class=" position-relative header-row-up">
+                        <img src="./pics/plan-2-copyright.svg" alt="" class=" aeroplane img-fluid">
+                        <img src="./pics/image-1-copyright.svg" alt="hero" class="hero-img img-fluid">
+                    </div>
+                    <div class="col-lg-5  col-12 header-main">
+                        <h1 class="about-header">
+                            Right Social Networking for Marketing
+                        </h1>
+                        <p class="header-info">Consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore
+                            magna
+                            aliqua quis nostrud
+                            exerc.</p>
+                        <div class="header-btns-div">
+                            <button type="button" class="btn view-btn">View More</button>
+                            <button type="button" class="btn about-btn">About Us</button>
+                        </div>
+                    </div>
+                    <div class="col-7 position-relative header-row-down">
+                        <img src="./pics/plan-2-copyright.svg" alt="" class=" aeroplane img-fluid">
+                        <img src="./pics/image-1-copyright.svg" alt="hero" class="hero-img img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid">
+            <div class="hover-imgs-div">
+                <!-- <div class="row"> -->
+                <div class="">
+                    <img src="./pics/hover-1.webp" alt="" class="opacity-hover-img">
+                </div>
+                <div class="">
+                    <img src="./pics/hover-2.webp" alt="" class="opacity-hover-img">
+                </div>
+                <div class="">
+                    <img src="./pics/hover-3.webp" alt="" class="opacity-hover-img">
+                </div>
+                <div class="">
+                    <img src="./pics/hover-4.webp" alt="" class="opacity-hover-img">
+                </div>
+                <div class="">
+                    <img src="./pics/hover-5.webp" alt="" class="opacity-hover-img">
+                </div>
+                <div class="">
+                    <img src="./pics/hover-6.webp" alt="" class="opacity-hover-img">
+                </div>
+                <!-- </div> -->
+            </div>
+
+        </section>
     </header>
+
+
+
+    <main>
+        <!-- About us section -->
+        <section class="container-fluid">
+            <p class="about">About Us</p>
+            <p class="we-offer">We Offer Expert SEO and<br> Marketing Services
+            </p>
+
+            <div class="about-cards-main-div">
+                <div class="text-center">
+                    <div class="about-small-img-div">
+                        <img src="./pics/about us card imgs.svg" alt="" class="img-fluid about-small-img">
+                    </div>
+                    <p class="optimize">Optimization</p>
+                    <p class="about-info">Consectetur adipiscing elit, sed eiusmod tempo.</p>
+                </div>
+                <div class="text-center">
+                    <div class="about-small-img-div">
+                        <img src="./pics/about us card imgs-2.svg" alt="" class="img-fluid about-small-img">
+                    </div>
+                    <p class="optimize">Branding</p>
+                    <p class="about-info">Consectetur adipiscing elit, sed eiusmod tempo.</p>
+                </div>
+                <div class="text-center">
+                    <div class="about-small-img-div">
+                        <img src="./pics/about us card imgs-3.svg" alt="" class="img-fluid about-small-img">
+                    </div>
+                    <p class="optimize">Development</p>
+                    <p class="about-info">Consectetur adipiscing elit, sed eiusmod tempo.</p>
+                </div>
+                <div class="text-center">
+                    <div class="about-small-img-div">
+                        <img src="./pics/about us card imgs-4.svg" alt="" class="img-fluid about-small-img">
+                    </div>
+                    <p class="optimize">Support</p>
+                    <p class="about-info">Consectetur adipiscing elit, sed eiusmod tempo.</p>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <button type="button" class="talk-btn More-Features-btn">More Features</button>
+            </div>
+
+        </section>
+    </main>
+
+
+
 
 
 
